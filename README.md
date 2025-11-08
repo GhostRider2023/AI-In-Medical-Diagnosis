@@ -1,7 +1,22 @@
+#  Brain Tumor & Chest X-Ray Disease Detection
+
 This repository contains two deep learning projects:
 
-Brain Tumor Segmentation Model built using U-Net architecture and optimized with the Soft Dice Loss Function, which is particularly effective for handling data imbalance in medical imaging tasks.
+- **Brain Tumor Segmentation** using **U-Net**, optimized with **Soft Dice Loss** for better handling of data imbalance.
+- **Chest X-Ray Disease Classification** using **DenseNet** with **transfer learning** for accurate diagnosis.
 
-Chest X-Ray Disease Classifier developed using DenseNet through transfer learning, aimed at detecting thoracic diseases from radiographic images.
+Both models are evaluated using key diagnostic metrics such as **PPV**, **NPV**, **Specificity**, and **Sensitivity** to ensure reliable and meaningful results.
 
-The models are evaluated using various diagnostic metrics, including Positive Predictive Value (PPV), Negative Predictive Value (NPV), Specificity, and Sensitivity, to ensure comprehensive performance assessment.
+---
+
+## ⚙️ Tech Stack
+- Python  
+- TensorFlow / Keras  
+- NumPy, Pandas, Matplotlib  
+
+---
+
+## How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
